@@ -2,4 +2,9 @@
     display: grid;
     width: 500px;
     height: 500px;
+    flex-direction: column;
+}
+
+body {
+    background: linear-gradient(rgb(251, 175, 251), rgb(243, 181, 226));
 }
