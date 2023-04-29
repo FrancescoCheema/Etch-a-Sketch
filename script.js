@@ -2,8 +2,8 @@ let board = document.querySelector(".board");
 board.style.gridTemplateColumns = "repeat(16, 1fr)";
 board.style.gridTemplateRows = "repeat(16, 1fr)";
 
-const gray = document.querySelector('.gray');
-const black = document.querySelector('.black')
+const gray = document.querySelector('.gray-btn');
+const black = document.querySelector('.black-btn')
 gray.addEventListener('click', grayScale)
 black.addEventListener('click', hover)
 
