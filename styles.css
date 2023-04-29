@@ -1,10 +1,15 @@
+body {
+    background: linear-gradient(rgb(208, 222, 229), rgb(218, 248, 219));
+}
+
+#flex-container {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .board {
     display: grid;
     width: 500px;
     height: 500px;
-    flex-direction: column;
-}
-
-body {
-    background: linear-gradient(rgb(251, 175, 251), rgb(243, 181, 226));
 }
