@@ -28,16 +28,29 @@ h1 {
 button {
     border-radius: 10px;
     font-size: 20px;
-    border-color: black;
-    background-color: rgba(0, 255, 255, 0.373);
+    border-color: solid black;
+    background-color: rgba(207, 235, 250);
     margin-bottom: 10px;
     font-family: cursive;
     margin-right: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    animation-name: stretch;
+    animation-duration: 4.0s;
+    animation-timing-function:cubic-bezier(0.215, 0.610, 0.355, 1);
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);;
+    transform: scale(1.10);
 }
 
 .board-size {
     margin-top: 0;
-    font-family: monospace;
+    font-family:cursive;
     font-size: 20px;
 }
 
