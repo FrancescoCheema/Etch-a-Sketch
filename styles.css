@@ -1,5 +1,14 @@
 body {
-    background: linear-gradient(rgb(208, 222, 229), rgb(218, 248, 219));
+    background: rgb(207, 235, 250);
+    margin-top: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: fantasy;
+    text-decoration-style: wavy;
 }
 
 #flex-container {
@@ -9,7 +18,33 @@ body {
 }
 
 .board {
+    margin-top: -10px;
     display: grid;
     width: 500px;
     height: 500px;
+    margin-bottom: 15px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: black;
+    background-color: rgba(0, 255, 255, 0.373);
+    margin-bottom: 10px;
+    font-family: cursive;
+    margin-right: 10px;
+}
+
+.board-size {
+    margin-top: 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
 }
