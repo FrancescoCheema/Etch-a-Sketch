@@ -1,4 +1,3 @@
-# Etch-a-Sketch
 I bult this etch a sketch project using:
 CSS Flexbox,
 CSS Animation,
