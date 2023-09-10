@@ -1,4 +1,4 @@
-I bult this etch a sketch project using:
+I built this etch a sketch project using:
 CSS Flexbox,
 CSS Animation,
 Dom Manipulation,
