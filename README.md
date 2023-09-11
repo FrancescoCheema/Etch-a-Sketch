@@ -6,3 +6,4 @@ Event Listeners,
 Query Selectors,
 Sizing with colums and rows.
 The project is quite particular, as it's my first time playing with a grid, making sure the outcome is exactly as I want it to look like.
+live at https://francescocheema.github.io/Etch-a-Sketch/
